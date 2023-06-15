@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10%;
+    margin: 0.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color:rgb(249, 195, 145)
+}
+
+nav ul {
+    margin: 2rem;
+}
+
+.Listlogo a {
+    padding: 0.5rem;
+    text-decoration: none;
+    background-color:bisque;
+    border-radius: 20%;
+    outline-style: double;
+    margin: 1rem;
+    color: red;
+    
+    
+}
+
+.banner{
+    background-image: url(./Images/banner_image.jpg);
+    height: 30rem;
+}
+
+.banner marquee{
+    position: relative;
+    top: 18rem;
+    font-family: georgia;
+    color:bisque;
+    font-size: 2rem;
+    background-color:rgba(165, 42, 42, 0);
+    height: 7rem;
+
+}
+
+.Teemah_Logo {
+    position: relative;
+    right: 15.5rem;
+    top: 5.6rem;
+    font-family: monotype corsiva;
+    color:red
+}
+
+.My-Photo img {
+    height: 20rem;
+    width: 11rem;
+    position: relative;
+    left: 50rem;
+    top: 2rem;
+    margin: auto;
+    border-radius: 50%;
+    border-color: aquamarine;
+    outline-style:dotted;
+    outline-color:yellow;
+    padding: 0.5rem;
+}
+
+
+@media (max-width: 576px){
+    nav ul a{
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+}
